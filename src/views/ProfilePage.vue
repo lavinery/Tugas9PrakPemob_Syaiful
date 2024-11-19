@@ -52,10 +52,10 @@ const logout = () => {
     authStore.logout();
 };
 
-const userPhoto = ref(user.value?.photoURL || 'https://ionicframework.com/docs/img/demos/avatar.svg');
+const userPhoto = ref(user.value?.photoURL || 'https://lh3.googleusercontent.com/a/ACg8ocKSuQVZWDRR9nDTm651rK8kzwQY9rY6Ocz3LarydUgRrSuIXe_e=s360-c-no');
 
 function handleImageError() {
-    userPhoto.value = 'https://ionicframework.com/docs/img/demos/avatar.svg';
+    userPhoto.value = 'https://lh3.googleusercontent.com/a/ACg8ocKSuQVZWDRR9nDTm651rK8kzwQY9rY6Ocz3LarydUgRrSuIXe_e=s360-c-no';
 }
 </script>
 
